@@ -5,22 +5,22 @@
 数字をカウントしてトピック/countupを通じて送信する機能を持つパブリッシャを持つノードである.
 メッセージの型はInt16型でありトピックはcountupである.
 ## 使用例
-・ros2 run mypkg talker
+* ros2 run mypkg talker
 (何も表示されない)
 # listener.pyコマンド
 ## コマンドの概要
 listener.pyは/countupからメッセージを受け取り表示する機能を持つサブスクライバを持つノードである.
 talker.pyから発せられたInt16型のcountupを受け取る.
 ## 使用例
-・ros2 run mypkg listener
+* ros2 run mypkg listener
 (talkerの出した数値を表示)
 # 必要なソフトウェア
-・Python 3.10.6
+* Python 3.10.6
 # テスト環境
-・Ubuntu 22.04
-・ROS2
+* Ubuntu 22.04
+* ROS2
 ## テスト結果
 ![test](https://github.com/kyo0221/mypkg/actions/workflows/test.yml/badge.svg)
 # ライセンス
-・このソフトウェアパッケージは,3条項BSDライセンスの下,再頒布および使用が許可されます.
+* このソフトウェアパッケージは,3条項BSDライセンスの下,再頒布および使用が許可されます.
 © 2022 Kyo Yamashita
