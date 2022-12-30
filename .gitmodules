@@ -1,0 +1,3 @@
+[submodule "mypkg"]
+	path = mypkg
+	url = git@github.com:kyo0221/mypkg.git
