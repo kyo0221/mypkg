@@ -7,7 +7,9 @@
 数字をカウントしてトピック/countupを通じて送信する機能を持つパブリッシャを持つノードである.
 メッセージの型はInt16型でありトピックはcountupである.
 ## 使用例
-* ros2 run mypkg talker
+```
+ros2 run mypkg talker
+```
 
 (何も表示されない)
 # listener.pyコマンド
@@ -15,7 +17,9 @@
 listener.pyは/countupからメッセージを受け取り表示する機能を持つサブスクライバを持つノードである.
 talker.pyから発せられたInt16型のcountupを受け取る.
 ## 使用例
-* ros2 run mypkg listener
+```
+ros2 run mypkg listener
+```
 
 (talkerの出した数値を表示)
 # 必要なソフトウェア
